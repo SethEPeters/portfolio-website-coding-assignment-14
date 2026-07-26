@@ -37,7 +37,7 @@ In package.json found in the component library main directory change the line st
 
 FROM node:20-alpine
 
-WORKDIR /peters\_seth\_ui\_garden\_build\_checks
+WORKDIR /peters\_seth\_final\_site
 
 COPY package.json ./
 COPY package-lock.json ./
@@ -59,4 +59,4 @@ Dockerfile.prod
 
 docker build -t peters\_seth\_coding\_assignment13 .
 
-docker run -it --rm -p 8018:80 --name peters\_seth\_coding\_assignment13 peters\_seth\_coding\_assignment13
+docker run -it --rm -p 5575:80 --name peters\_seth\_coding\_assignment13 peters\_seth\_coding\_assignment13
