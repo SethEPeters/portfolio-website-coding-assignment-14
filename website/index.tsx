@@ -1,6 +1,6 @@
-import Button from '../components/Button';
+import Button from '../src/components/Button';
 
-export default function Home() {
+export default function App() {
   return (
     <div>
       <h1>XX XX Portfolio</h1>

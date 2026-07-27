@@ -57,6 +57,6 @@ build
 Dockerfile
 Dockerfile.prod
 
-docker build -t peters\_seth\_coding\_assignment13 .
+docker build -t peters\_seth\_coding\_assignment14 .
 
-docker run -it --rm -p 5575:80 --name peters\_seth\_coding\_assignment13 peters\_seth\_coding\_assignment13
+docker run -it --rm -p 5575:80 --name peters\_seth\_coding\_assignment14 peters\_seth\_coding\_assignment14
