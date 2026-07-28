@@ -10,10 +10,10 @@ export default function Home() {
   return (
     <div>
       <div>
+        <Text label="Seth Peters Work" background_colour="#6edaed" state={true}></Text>
         <Link href="/..">
           <Button label="Back" background_colour="#b6c9ca" state={true} />
         </Link>
-        <Text label="Seth Peters Work" background_colour="#e6a358" state={true}></Text>
 
         <Text label="The Video Game Release Date Archive Project" background_colour="#5d5c59" state={true}></Text>
         <Text
@@ -24,12 +24,12 @@ export default function Home() {
         <Img
           src={image1.src}
           alt="The Video Game Release Date Archive"
-          border_colour="#f22525"
+          border_colour="#000000"
           state={true}
           justify_content="center"
         ></Img>
         <Link href="https://www.thevideogamereleasedatearchive.com/">
-          <Button label="Check Out The Site" background_colour="#dceaeb" justify_content="flex-start" state={true} />
+          <Button label="Check Out The Site" background_colour="#dceaeb" justify_content="center" state={true} />
         </Link>
         <ul>
           <li>
