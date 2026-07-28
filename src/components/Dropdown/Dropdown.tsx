@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 import { DropdownProps } from './Dropdown.types';
 import styled, { css } from 'styled-components';

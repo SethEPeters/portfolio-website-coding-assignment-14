@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 import { HeroImageProps } from './HeroImage.types';
 import styled, { css } from 'styled-components';

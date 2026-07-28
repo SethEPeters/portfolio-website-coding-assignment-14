@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useState } from 'react';
 import { TableHeaderProps } from './TableHeader.types';
 import styled, { css } from 'styled-components';

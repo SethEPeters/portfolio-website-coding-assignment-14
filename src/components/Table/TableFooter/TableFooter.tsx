@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useState } from 'react';
 import { TableFooterProps } from './TableFooter.types';
 import styled, { css } from 'styled-components';

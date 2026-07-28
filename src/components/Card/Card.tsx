@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 import { CardProps } from './Card.types';
 import styled, { css } from 'styled-components';

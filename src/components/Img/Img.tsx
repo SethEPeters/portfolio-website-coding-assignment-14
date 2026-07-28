@@ -1,23 +1,31 @@
+'use client';
+
 import React from 'react';
 import { ImgProps } from './Img.types';
 import styled, { css } from 'styled-components';
 
 const StyledImg = styled.img<ImgProps>`
+  display: flex;
+  justify-self: ${({ justify_content }) => justify_content ?? 'flex-start'};;
+
   padding: 0;
   font-size: 1rem;
   border: solid;
   border-radius: 4px;
   color: black;
-  width: 200px;
+  width: 400px;
   border-color: ${({ border_colour }) => border_colour ?? '#e6e3e3'};
 rgb(111, 111, 111)
   ${(props) =>
     !props.state &&
     css`
+      display: flex;
+      justify-self: flex-start;
+
       padding: 0;
       color: white;
       cursor: not-allowed;
-      width: 200px;
+      width: 400px;
       background-color: #e4e4e4d3;
       opacity: 50%;
       border-color: #e4e4e4;
@@ -25,13 +33,14 @@ rgb(111, 111, 111)
 
 `;
 
-export default function Img({ alt, border_colour, state }: ImgProps) {
+export default function Img({ alt, border_colour, state, src, justify_content }: ImgProps) {
   return (
     <StyledImg
       state={state}
       border_colour={border_colour}
+      justify_content={justify_content}
       alt={alt}
-      src={'src/images/PokemonSapphireGameplay.png'}
+      src={src}
       data-testid="img"
     ></StyledImg>
   );

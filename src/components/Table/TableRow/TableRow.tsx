@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useState } from 'react';
 import { TableRowProps } from './TableRow.types';
 import styled, { css } from 'styled-components';

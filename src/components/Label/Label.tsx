@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useState } from 'react';
 import { LabelProps } from './Label.types';
 import styled, { css } from 'styled-components';
