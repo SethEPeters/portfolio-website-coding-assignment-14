@@ -7,7 +7,7 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <div>
-      <h1>Seth Peters Skills</h1>
+      <Text label="Seth Peters Skills" background_colour="#e6a358" state={true}></Text>
       <Link href="/..">
         <Button label="Back" background_colour="#b6c9ca" state={true} />
       </Link>
