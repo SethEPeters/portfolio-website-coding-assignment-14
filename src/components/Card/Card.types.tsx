@@ -4,4 +4,5 @@ export interface CardProps {
   // img?: WHAT;
   background_colour?: string;
   state?: boolean;
+  src?: string;
 }

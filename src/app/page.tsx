@@ -1,4 +1,5 @@
 import Button from '../components/Button';
+import Text from '../components/Text';
 
 export default function Home() {
   return (
@@ -15,13 +16,12 @@ export default function Home() {
       <a href="/setup">
         <Button label="Developer Setup" background_colour="#37b1bc" state={true} />
       </a>
-      <h1>Seth Peters Portfolio</h1>
-      <p>
-        My name is Seth Peters and I am a full stack web developer who gained their experience from Red River College
-        Polytechnic and The University of Manitoba
-      </p>
-
-      <h2>Check out...</h2>
+      <Text label="Seth Peters Portfolio" background_colour="#6edaed" state={true}></Text>
+      <Text
+        label="My name is Seth Peters and I am a student at Red River College Polytechinc, as well as a graduate from the University of Manitoba. In this site you will find a summary of my skills alongside a few projects that I think show the extent of my skills"
+        background_colour="#e6a358"
+        state={true}
+      ></Text>
     </div>
   );
 }

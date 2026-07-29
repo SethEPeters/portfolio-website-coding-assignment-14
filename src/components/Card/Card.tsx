@@ -41,16 +41,11 @@ const StyledImg = styled.img<CardProps>`
     `}
 `;
 
-export default function Card({ title, description, background_colour, state }: CardProps) {
+export default function Card({ title, description, background_colour, src, state }: CardProps) {
   return (
     <StyledCard state={state} background_colour={background_colour} data-testid="card">
       <h1>{title}</h1>
-      <StyledImg
-        state={state}
-        background_colour={background_colour}
-        src="src/images/PokemonSapphireGameplay.png"
-        alt="Src image"
-      />
+      <StyledImg state={state} background_colour={background_colour} src={src} alt="Src image" />
       <p>{description}</p>
     </StyledCard>
   );

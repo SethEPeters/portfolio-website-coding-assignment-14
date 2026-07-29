@@ -6,6 +6,7 @@ import styled, { css } from 'styled-components';
 
 const StyledButton = styled.button<ButtonProps>`
   display: flex;
+  flex-direction: row;
   justify-self: ${({ justify_content }) => justify_content ?? 'flex-start'};
 
   padding: 0.75rem 1.5rem;
@@ -21,6 +22,7 @@ const StyledButton = styled.button<ButtonProps>`
     !props.state &&
     css`
       display: flex;
+      flex-direction: row;
       justify-self: flex-start;
 
       color: white;

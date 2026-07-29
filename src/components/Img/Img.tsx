@@ -6,7 +6,7 @@ import styled, { css } from 'styled-components';
 
 const StyledImg = styled.img<ImgProps>`
   display: flex;
-  justify-self: ${({ justify_content }) => justify_content ?? 'flex-start'};;
+  justify-self: ${({ justify_content }) => justify_content ?? 'flex-start'};
 
   padding: 0;
   font-size: 1rem;
@@ -15,7 +15,6 @@ const StyledImg = styled.img<ImgProps>`
   color: black;
   width: 400px;
   border-color: ${({ border_colour }) => border_colour ?? '#e6e3e3'};
-rgb(111, 111, 111)
   ${(props) =>
     !props.state &&
     css`
@@ -30,10 +29,10 @@ rgb(111, 111, 111)
       opacity: 50%;
       border-color: #e4e4e4;
     `}
-
 `;
 
 export default function Img({ alt, border_colour, state, src, justify_content }: ImgProps) {
+  console.log('Rendering Img component');
   return (
     <StyledImg
       state={state}

@@ -26,6 +26,7 @@ const StyledText = styled.p<TextProps>`
 
 export default function Text({ label, background_colour, state }: TextProps) {
   const [isState, setState] = useState(false);
+  console.log('Rendering Text component');
   return (
     <StyledText
       state={state}
