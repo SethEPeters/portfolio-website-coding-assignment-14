@@ -22,7 +22,9 @@ export default function Home() {
       </div>
       <Text label="Seth Peters Portfolio" background_colour="#6edaed" state={true}></Text>
       <Text
-        label="My name is Seth Peters and I am a student at Red River College Polytechinc, as well as a graduate from the University of Manitoba. In this site you will find a summary of my skills alongside a few projects that I think show the extent of my skills"
+        label="My name is Seth Peters and I am a student at Red River College Polytechinc, as well as a graduate from the University of Manitoba.
+        In this site you will find a summary of my skills alongside a few projects that I think show the extent of my skills. I hope you will enjoy
+        taking a look!"
         background_colour="#e6a358"
         state={true}
       ></Text>

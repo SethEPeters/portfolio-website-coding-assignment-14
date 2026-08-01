@@ -12,7 +12,7 @@
 
 # CMD ["npm", "run", "storybook"]
 
-##### THE ABOVE IS OLD #####
+##### THE ABOVE IS FOR STORYBOOK #####
 
 #build environment
 #Base Image as 18 to avoid errors
@@ -41,7 +41,4 @@ FROM node:20.9.0-alpine
 COPY --from=build /peters_seth_final_site ./
 #Claim the port 80 to be listened to
 EXPOSE 80
-#Use nginx -- use the instructions taken from the command line -- tell nginx to stay in foreground and not background itself
-#basically it will run the container which uses and image built from this dockerfile. When we run the container it makes a build
-#that we grab the website files from then we send it to where it needs to befor nginx to find it so it can be grabbed
 CMD ["npm", "start", "--", "-p", "80"]

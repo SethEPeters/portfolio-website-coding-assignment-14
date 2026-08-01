@@ -12,11 +12,20 @@ export default function Home() {
         <Button label="Back" background_colour="#b6c9ca" state={true} />
       </Link>
       <Text
-        label="There are a variety of skills that I learnt while in School. Here is arundown of the things I learnt so far."
+        label="There are a variety of skills that I learnt while in School. Here is a rundown of the things I learnt so far."
         background_colour="#28e622"
         state={true}
       ></Text>
       <ul>
+        <li>
+          <Text label="Agile Web Development" background_colour="#e6a358" state={true}></Text>
+        </li>
+        <li>
+          <Text label="Automated testing" background_colour="#e6a358" state={true}></Text>
+        </li>
+        <li>
+          <Text label="Docker" background_colour="#e6a358" state={true}></Text>
+        </li>
         <li>
           <Text label="PHP" background_colour="#e6a358" state={true}></Text>
         </li>

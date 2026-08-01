@@ -13,7 +13,7 @@ const StyledImg = styled.img<ImgProps>`
   border: solid;
   border-radius: 4px;
   color: black;
-  width: 400px;
+  width: 600px;
   border-color: ${({ border_colour }) => border_colour ?? '#e6e3e3'};
   ${(props) =>
     !props.state &&

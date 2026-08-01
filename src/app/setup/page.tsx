@@ -12,11 +12,12 @@ export default function Home() {
         <Button label="Back" background_colour="#b6c9ca" state={true} />
       </Link>
       <Text
-        label="I am a big fan of dark themes in my editors, but would actually prefer a light them if there is not added contrast to the text of the dark theme. The brightness can keep me awake for a late night coding session."
-        background_colour="#e6a358"
+        label="I am a big fan of dark themes in my editors, but would actually prefer a light them if there is not added
+        contrast to the text of the dark theme. The brightness can keep me awake for a late night coding session. Here are some extensions I find useful
+        coding in a variety of languages in VScode"
+        background_colour="#28e622"
         state={true}
       ></Text>
-      <Text label="My setup for VsCode has tools for the following" background_colour="#28e622" state={true}></Text>
       <ul>
         <li>
           <Text label="Auto Close Tag" background_colour="#e6a358" state={true}></Text>
